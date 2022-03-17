@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+    var answerOne = ("Жар - птица");
+    var answerTwo = ("Жар-птица");
+    var answerThree = ("жар - птица");
+    var answerFour = ("жар-птица");
+    var answerFive = ("жар птица");
+    alert(" Сладкий яблок аромат\n Заманил ту птицу в сад.\n  Перья светятся огнём,\n  И светло вокруг, как днём.")
+    var userAnswer = prompt(" Сладкий яблок аромат\n Заманил ту птицу в сад.\n  Перья светятся огнём,\n  И светло вокруг, как днём.\n" + "Введите ответ: ");
+    var maxTryCount = 3;
+
+    for(var tryCount = 1; tryCount < maxTryCount; tryCount++){
+        if(userAnswer == answerOne || userAnswer == answerTwo || userAnswer == answerThree || userAnswer == answerFour || userAnswer == answerFive){
+            alert("Поздравляю, вы угадали!");
+            break;
+        } else if (userAnswer != answer) {
+            alert("Вы ввели неправильный ответ");
+        }
+
+        userAnswer = prompt("Попробуйтк еще раз. Введите правильный ответ\n У вас осталось " + (maxTryCount - tryCount) + " попыток");
+    }
+
+    if(tryCount == maxTryCount)
+       alert("Вы проиграли!");
+
+    alert("Правильный ответ: " + answerOne);
+
+
+</script>
