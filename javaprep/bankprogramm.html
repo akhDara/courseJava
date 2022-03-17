@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+
+do{
+    var depositAmount = +prompt("Введите сумму: ");
+    var interestRate = +prompt("Введите процентную ставку: ");
+    }
+    while(isNaN(depositAmount) || depositAmount < 0 || isNaN(interestRate) || interestRate < 0 );
+
+
+    /* var count = ((depositAmount * interestRate / 100)) + depositAmount;
+    var countTwoYear = ((count * interestRate / 100)) + count;
+    var countThreeYear = ((countTwoYear * interestRate / 100)) + countTwoYear;
+    var countFourYear = ((countThreeYear * interestRate / 100)) + countThreeYear;
+    var countFiveYear = ((countFourYear * interestRate / 100)) + countFourYear;
+
+
+    alert("Ваш доход за первый год: " + count.toFixed(2) + "рублей\n" + "Ваш доход за период 2 года: " + countTwoYear.toFixed(2) + "рублей\n"  + "Ваш доход за период 3 года: " + countThreeYear.toFixed(2)+ "рублей\n" + "Ваш доход за период 4 года: " + countFourYear.toFixed(2)+ "рублей\n"  + "Ваш доход за период 5 года: " + countFiveYear.toFixed(2) + "рублей\n"); */
+
+    var persent = interestRate / 100;
+    var result = 'Изменение размера вклада по годам:\n';
+
+    for(var i = 1; i <= 5; i++){
+        depositAmount = depositAmount + (depositAmount * persent);
+        result += i + 'год: ' + depositAmount.toFixed(2) + ' рублей\n';
+    }
+    alert(result);
+
+</script>
