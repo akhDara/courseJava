@@ -1,11 +1,10 @@
 <meta charset="utf-8">
 <script type="text/javascript">
 
+do{
 var r = +prompt ("Пожалуйста, введите число ");
-
-while(isNaN(r) || r < 0){
-    r = +prompt ("Пожалуйста, введите число ");
 }
+while(isNaN(r) || r < 0);
 
 var m = 0;
 for(var i = 0; i <= r; i++){
