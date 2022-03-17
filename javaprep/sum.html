@@ -3,14 +3,14 @@
 
 var r = +prompt ("Пожалуйста, введите число ");
 
-    while(isNaN(r) || r < 0){
-    document.write("Нужно было ввести положительное число");
-    }
+while(isNaN(r) || r < 0){
+    r = +prompt ("Пожалуйста, введите число ");
+}
 
 var m = 0;
 for(var i = 0; i <= r; i++){
 m = m + i;
 }
- document.write(m);
+document.write(m);
 
 </script>
