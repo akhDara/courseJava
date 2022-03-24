@@ -30,7 +30,7 @@ class AkhunzyanovaHomeworkOne {
         } else {
             System.out.println("Зеленый");
         }
-        /* или else if (value > 0) {
+        /* или else if (value > 100) {
             System.out.println("Зеленый");
         } но вроде излишне */
     }
