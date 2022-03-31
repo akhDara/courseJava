@@ -4,7 +4,6 @@
 * @version #1 29.03.2021
 */
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 class AkhunzyanovaHomeworkThird {
