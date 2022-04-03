@@ -1,5 +1,5 @@
 /**
- * Java 1. Homework 2
+ * Java 1. Homework 3
  * @author Guldar Akhunzyanova
  * @version #2 29.03.2021
  */
