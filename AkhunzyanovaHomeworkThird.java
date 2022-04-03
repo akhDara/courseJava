@@ -1,7 +1,7 @@
 /**
  * Java 1. Homework 3
  * @author Guldar Akhunzyanova
- * @version #2 29.03.2021
+ * @version #2 29.03.2021 
  */
 
 import java.util.Arrays;
