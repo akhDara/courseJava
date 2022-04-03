@@ -14,8 +14,6 @@ public class AkhunzyanovaHomeworkThird {
         multiplyNumbersUnderSix(new int[] {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1});
         fillDiagonals(new int[5][5]);
         createArr(5, 9);
-
-
     }
     static void fillArray(int[] arr) {
             for (int i = 0; i < arr.length; i++) {
