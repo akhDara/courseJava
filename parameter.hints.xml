@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="HomeworkFirst.Wolfs.Wolfs(name)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
