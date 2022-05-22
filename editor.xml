@@ -1,0 +1,9 @@
+<application>
+  <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="JAVA.RelatedProblems" />
+      </set>
+    </option>
+  </component>
+</application>
